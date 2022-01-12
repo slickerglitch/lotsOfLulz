@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="client/style.css"/>
+
+    <title>MVP</title>
+
+  </head>
+
+  <body>
+  <h1>These are the jokes, People</h1>
+  <p>Generate a random joke, courtesy of JokeAPI!</p>
+    <form action="/" method="post">
+        <label for="jokecategory">Pick a category from the Dropdown:</label>
+        <select type="text" name="category" id="jokecategory">
+            <option value="null"></option>
+            <option value="Programming">Programming</option>
+            <option value="Misc">Misc</option>
+            <option value="Dark">Dark</option>
+            <option value="Pun">Pun</option>
+            <option value="Spooky">Spooky</option>
+            <option value="Christmas">Christmas</option>
+        </select>
+        <button type="submit">Generate Joke</button>
+    
+    </form>
+
+  </body>
+</html>
